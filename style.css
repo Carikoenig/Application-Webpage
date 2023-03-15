@@ -209,3 +209,192 @@ h3{
   margin-right: auto;
   
 }
+
+.row-skills {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column-sillks {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column-skills img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column-skills {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column-skills {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+/* --- copied from https://codepen.io/flyingcar/pen/jmvLqG-------*/
+/*
+	Using Bootstrap
+*/
+
+
+
+/* PEN STYLES ========== */
+.row-copied {
+	margin: 0;
+}
+.container {
+}
+
+.test_box {
+	padding: 0;
+}
+.test_box .inner {
+	background: #333;
+	display: block;
+	margin: 10px;
+	overflow: hidden;
+}
+.test_box .inner .test_click {
+	-webkit-align-content: center;
+	-ms-flex-line-pack: center;
+	align-content: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	background-color: rgba(0,0,0,.1);
+	color: #fff;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+	height: 300px;
+	mix-blend-mode: normal;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: all 300ms ease;
+	transition: all 300ms ease;
+}
+.test_box .inner .test_click:hover {
+	background-color: rgba(100,0,100,.5); 
+	mix-blend-mode: hard-light;
+}
+.flex_this {
+	-webkit-align-content: center;
+	-ms-flex-line-pack: center;
+	align-content: center;
+	display: inherit;
+	flex-wrap: inherit;
+	height: auto;
+	margin: 0;
+	padding: 10px;
+	-webkit-transition: all 300ms ease;
+	transition: all 300ms ease;
+	width: 100%;
+
+}
+.test_box .inner .test_click:hover .flex_this {
+	margin-top: -5px;
+}
+
+.test_title {
+	display: block;
+	font-weight: 700;
+	margin: 0 0 20px;
+	width: 100%;
+}
+.test_link {
+	border: 2px solid #fff;
+	display: inline-block;
+	font-size: .8em;
+	font-weight: 700;
+	letter-spacing: .1em;
+	margin: 0 auto;
+	padding: 10px 30px;
+	text-transform: uppercase;
+}
+
+.box-01 .inner {
+	background-image: url('images/uml.jpg');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box-02 .inner {
+	background-image: url('images/unity12.png');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box-03 .inner {
+	background-image: url('images/unitylight2.png');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box-04 .inner {
+	background-image: url('images/app.jpg');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box-05 .inner {
+	background-image: url('images/c.jpg');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box-06 .inner {
+	background-image: url('images/pythoncode.jpg');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.box-07 .inner {
+	background-image: url('images/java.jpg');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.box-08 .inner {
+	background-image: url('images/sql.jpg');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.box-09 .inner {
+	background-image: url('images/math.jpg');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box-10 .inner {
+	background-image: url('images/python.jpg');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.box-11 .inner {
+	background-image: url('images/arduino2.jpg');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
