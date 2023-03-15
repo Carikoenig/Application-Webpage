@@ -7,7 +7,7 @@
 .header{
 	min-height: 100vh;
 	width: 100%;
-	background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/colorbacking.jpg);
+	background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/otherbee.jpg);
 	background-position: center;
 	background-size: cover;
 	position: relative;
@@ -154,6 +154,14 @@ p{
 	box-sizing: border-box;
 	transition: 0.5s;
 }
+.course-col2{
+	flex-basis: 31%;
+	background: #fff3f3;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+}
 h3{
 	text-align: center;
 	font-weight: 600;
@@ -194,7 +202,7 @@ h3{
 .sub-header{
 	height: 50vh;
 	width: 100%;
-	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/colorbacking.jpg);
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/otherbee.jpg);
 	background-position: center;
 	background-size: cover;
 	text-align: center;
@@ -290,7 +298,7 @@ h3{
 	transition: all 300ms ease;
 }
 .test_box .inner .test_click:hover {
-	background-color: rgba(100,0,100,.5); 
+	background-color: rgba(100,0,100,.7); 
 	mix-blend-mode: hard-light;
 }
 .flex_this {
